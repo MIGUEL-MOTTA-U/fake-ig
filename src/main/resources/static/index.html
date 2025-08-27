@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <div class="phone-container">
+            <img src="images/landing-2x.png" class="ig-phone" alt="Instagram phones" />
+        </div>
+    </div>
+    <div class="right">
+        <div class="login-box">
+            <div class="logo-box">
+                <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" class="instagram-logo" alt="Instagram" />
+            </div>
+            <input type="text" placeholder="Teléfono, usuario o correo electrónico" />
+            <input type="password" placeholder="Contraseña" />
+            <button>Entrar</button>
+            <h3>
+                <span>O</span>
+            </h3>
+            <a href="#" class="facebook">
+                <img src="images/Facebook_Logo.png" alt="Facebook" class="fb-icon" />
+                Iniciar sesión con Facebook
+            </a>
+            <a href="#" class="forgot">¿Has olvidado la contraseña?</a>
+        </div>
+        <div class="sign-up-box">
+            <h4>¿No tienes una cuenta?</h4>
+            <a href="#" class="sign-up">Regístrate</a>
+        </div>
+        <div class="app-install">
+            <h4>Descarga la aplicación.</h4>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" class="google" alt="Disponible en Google Play" />
+                </a>
+                <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" class="microsoft" alt="Consíguela en Microsoft" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="footer-link-container">
+        <a href="#" class="footer-link">Meta</a>
+        <a href="#" class="footer-link">Información</a>
+        <a href="#" class="footer-link">Blog</a>
+        <a href="#" class="footer-link">Empleo</a>
+        <a href="#" class="footer-link">Ayuda</a>
+        <a href="#" class="footer-link">API</a>
+        <a href="#" class="footer-link">Privacidad</a>
+        <a href="#" class="footer-link">Condiciones</a>
+        <a href="#" class="footer-link">Ubicaciones</a>
+        <a href="#" class="footer-link">Instagram Lite</a>
+        <a href="#" class="footer-link">Threads</a>
+        <a href="#" class="footer-link">Subir contactos y personas no usuarias</a>
+        <a href="#" class="footer-link">Meta Verified</a>
+    </div>
+    <div class="footer-details">
+        <div class="dropdown">
+            <span onclick="toggleDropdown()" class="drop-btn">Español (España) ▼</span>
+            <div id="myDropdown" class="dropdown-content">
+                <p onclick="selectLanguage('English')">English</p>
+                <p onclick="selectLanguage('Română')">Română</p>
+                <p onclick="selectLanguage('Deutsch')">Deutsch</p>
+                <p onclick="selectLanguage('Dansk')">Dansk</p>
+                <p onclick="selectLanguage('Polski')">Polski</p>
+                <p onclick="selectLanguage('English (UK)')">English (UK)</p>
+            </div>
+        </div>
+        <p>© 2025 Instagram from Meta</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
